@@ -1,4 +1,5 @@
-// Start of Document
+// Start of Document 
+//-----------------------------------
 var mongoose= require('mongoose')
 var Schema= mongoose.Schema;
 var bcrypt= require('bcrypt-nodejs')
@@ -19,3 +20,5 @@ schema.methods.validPass = function(password){
 
 
 module.exports= mongoose.model('user', schema)
+
+//END DOCUMENT
